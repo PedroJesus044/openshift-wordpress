@@ -1,1 +1,0 @@
-FROM rockylinux:9
