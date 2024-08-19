@@ -1,7 +1,7 @@
 FROM ubi8/php-74
 
 ADD wordpress* .
-RUN unzip wordpress*
+RUN unzip wordpress* -d ..
 USER 0
 
 RUN chgrp -R 0 wordpress && \
